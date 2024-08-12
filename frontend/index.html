@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies hub</title>
+    <link rel="icon" href="./assets/images/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header  >
+
+        <div class="navbar">
+            <div id="logo">
+                <a href="/frontend/index.html">movies hub</a>
+            </div>
+
+            <div id="dummy1"></div>
+            <form action="" method="get" id="searchform" style="display: flex;padding: 1vw;">
+                <input type="search" name="s" id="s" placeholder="search here" value style="width: 20vw;">
+                <button type="submit" value id="sbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <span id="signin">
+                <a href="./signin.html" >Sign-in</a>
+            </span>
+            
+        </div>
+
+        <!-- <div style="background-color: whitesmoke;height: 0.05vh;"></div> -->
+
+        <div class="navigation">
+            <ul id="navi">
+                <li style="padding-inline-start: 0%;" class="category">
+                    <a href="" class="category_link" >Home</a>
+                </li>
+
+                <li class="category">
+                    <a href="" class="category_link">Movies</a>
+                    <ul class="selector">
+                        <li><a href="">HOLLYWOOD</a></li>
+                        <li><a href="">TOLLYWOOD</a></li>
+                        <li><a href="">BOLLYWOOD</a></li>
+                    </ul>
+                </li>
+
+                <li class="category">
+                    <a href="" class="category_link">Language</a>
+                    <ul class="selector">
+                        <li><a href="">TELUGU</a></li>
+                        <li><a href="">ENGLISH</a></li>
+                        <li><a href="">HINDI</a></li>
+                    </ul>
+                </li>
+
+                <li class="category">
+                    <a href="" class="category_link">Genre</a>
+                    <ul class="selector">
+                        <li><a href="">ANIME</a></li>
+                        <li><a href="">HORROR</a></li>
+                    </ul>
+                </li>
+
+                <li class="category">
+                    <a href="" class="category_link">Year</a>
+                    <ul class="selector">
+                        <li><a href="">2024</a></li>
+                        <li><a href="">2023</a></li>
+                    </ul>
+                </li>
+
+                <li class="category_link">
+                    <a href="./assets/tic-tac-toe/index.html" target="_blank" id="tic-tac-toe">Game</a>
+                </li>
+            </ul>
+        </div>
+        <!-- <div style="background-color: whitesmoke;height: 0.05vh;"></div> -->
+    </header>
+
+    <main>
+        <div id="dummy2"></div>
+        <!-- <div class="suggestions">
+            <div class="titles" id="title1">Hot Right Now</div>
+            <div class="titles_data">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </div> -->
+
+        <div class="suggestions">
+            <div class="titles" id="title2">Top IMDB Movies</div>
+            <div class="titles_data">
+            </div>
+        </div>
+
+        <div class="suggestions">
+            <div class="titles" id="title3">Top IMDB Webseries</div>
+            <div class="titles_data">
+            </div>
+        </div>
+        <div class="suggestions">
+            <div class="titles" id="title4">Top Anime</div>
+            <div class="titles_data">
+            </div>
+        </div>
+        <div class="back_to_top"><a href="" style="color: red;"><i class="fa-solid fa-arrow-up"></i></a></div>
+        
+    </main>
+    <footer>
+        <div class="dummy3"></div>
+        <div class="links">
+            <div class="support">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="">Help center</a></li>
+                    <li><a href="">content complaints</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="social_media">
+                <div><h1>Connect With Us</h1></div>
+                <div style="display: flex;justify-content: space-around;font-size: larger;" class="apps">
+                    <div>
+                        <a href="https://www.instagram.com/sandeepsonic_7/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/sandeep.seven.3/"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
